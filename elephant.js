@@ -1,8 +1,8 @@
 // The Stage+Characters
 // --------------------
 
-function Elephant () {
-	this.name = 'Gajanan';
+function Elephant (name) {
+	this.name = name;
 	this.age = 10;
 
 	this.setAge = function (age) {
@@ -17,7 +17,7 @@ function Elephant () {
 // The Play
 // --------
 
-var e = new Elephant();
+var e = new Elephant('Gajanan');
 console.log('Hello! I am %s.', e.name);
 console.log('I am %s year(s) old.', e.getAge());
 
