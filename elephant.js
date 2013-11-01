@@ -18,8 +18,10 @@ function Elephant () {
 // --------
 
 var e = new Elephant();
-console.log(e.getAge());
+console.log('Hello! I am %s.', e.name);
+console.log('I am %s year(s) old.', e.getAge());
 
 // Afer one year. Please assume :p
+console.log(' ~~~ A year has gone by ... ~~~ ')
 e.setAge(11);
-console.log(e.getAge());
+console.log('I am %s year(s) old.', e.getAge());
